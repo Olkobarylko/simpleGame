@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="block-start"><button class="button-start" onclick="startGame()">START GAME</button></div>
+    <div class="container">
+        <div class="main-block">
+            <button style="font-size:28px" class="mini-block" value="0">START ↓(1)</button>
+            <button class="mini-block" value="14">→(1)</button>
+            <button class="mini-block" value="15">↓(2)</button>
+            <button class="mini-block" value="13">←(2)</button>
+            <button class="mini-block" value="9">↓(1)</button>
+            <button class="mini-block" value="1">→(2)</button>
+            <button class="mini-block" value="3">↓(3)</button>
+            <button class="mini-block" value="2">←(1)</button>
+            <button class="mini-block" value="11">↓(2)</button>
+            <button class="mini-block" value="10">←(1)</button>
+            <button class="mini-block" value="17">↓(1)</button>
+            <button class="mini-block" value="20">→(3)</button>
+            <button class="mini-block" value="16">←(2)</button>
+            <button class="mini-block" value="22">↓(2)</button>
+            <button class="mini-block" value="21">←(1)</button>
+            <button class="mini-block" value="18">→(1)</button>
+            <button class="mini-block" value="19">↑(1)</button>
+            <button class="mini-block" value="7">→(2)</button>
+            <button class="mini-block" value="12">↑(3)</button>
+            <button class="mini-block" value="8">↑(3)</button>
+            <button class="mini-block" value="5">→(2)</button>
+            <button class="mini-block" value="4">←(1)</button>
+            <button class="mini-block" value="6">↑(1)</button>
+            <button class="mini-block" value="23">→(1)</button>
+            <button class="mini-block" value="24">←(1)</button>
+        </div>
+    </div>
+    <div class="end-game">YOU WIN!!!</div>
+    <div class="lose-game-block">
+        <div class="lose-game">YOU LOSE!!!</div>
+        <button onclick="restartGame()" class="restart-game">RESTART</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
